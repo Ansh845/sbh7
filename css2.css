@@ -1,0 +1,491 @@
+* {
+    margin-top: 0%;
+}
+.classname
+{
+    color: black;
+    text-align: center;
+    font-size: 120px;
+    padding: 25px;
+    background-color: grey;
+    word-spacing: 5mm;
+    font-style: italic;
+    margin-bottom: 0mm;
+    
+}
+nav a{
+color: white;
+font-size: 25px;
+word-spacing: 1mm;
+margin: 1.25cm;
+padding: 3mm;
+padding-left: 0.25cm;
+padding-right: 0.25cm;
+padding-top: 0.25cm;
+padding-bottom: 0.25cm;
+
+}
+nav a:hover{
+    color: black;
+    background-color: lightgreen;
+    font-weight: bold;  
+}
+nav{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 1mm;
+}
+.animation{
+    color: rgb(8, 8, 8);
+    border: solid black 3mm;
+    background-color: rgb(196, 124, 124);
+    margin-right: 25cm;
+    animation: bouncing 6s infinite;
+    text-align: center;
+    margin-left: 25cm;
+    padding: 12px;
+    font-size: 50px;
+    border-radius: 50%;
+}
+@keyframes bouncing {
+    0%{
+        margin-left: 0px;
+       border-radius: 50%;
+       margin-top: 0%;
+       background-color: rgb(223, 223, 68);
+    }
+    25%{
+        border-radius: 0%;
+        background-color: white;
+    }
+    50%{
+        margin-right: 0px;
+        border-radius: 50%;
+        margin-left: 22cm;
+        margin-top: 0%;
+        background-color: rgb(206, 126, 112);
+        
+    }
+    75%{
+        border-radius: 0%;
+        background-color: white;
+    }
+  
+    100%{
+        margin-left: 0%;
+        border-radius: 50%;
+        margin-right: 22cm;
+        margin-top: 0%;
+        background-color: rgb(223, 223, 67);
+    }
+}
+#respect
+{
+    padding: 5px;
+    width: 1200px;
+    height: 100px;
+    box-shadow: 30% red;
+    align-content: center;
+    overflow: auto;
+    color: blue;
+    font-size: 75px;
+    margin: 20px;
+    border: rgb(15, 228, 25) solid 25px;
+    text-align: center;
+    background-color: palegreen;
+    margin-left: 1.3cm;
+}
+
+body{
+    margin: 2px;
+    background-color: wheat;
+    border-image-source: url(border1.jpg);
+}
+footer{
+    background-color: black;
+    font-size: 6mm;
+    text-align: center;
+    margin-bottom: 0%;
+}
+.hello{
+    color: white;
+    padding-left: 1cm;
+    text-underline-offset: none;
+}
+.people1
+{
+    text-align: center;
+    margin-left: 12cm;
+    margin-right: 12cm;
+    margin-top: 0.25cm;
+    padding: 10px;
+    color: darkgreen;
+    border: 5px red solid;
+    font-weight: bold;
+    border-radius: 20%;
+    font-size: 50px;
+    background-color: white;
+}
+.P1
+{
+    border: black 4px solid;
+    overflow: auto;
+    margin-bottom: 2cm;
+    height: 420px;
+    width: 1200px;
+    padding-bottom: 1cm;
+    margin-left: 1.60cm;
+    margin-right: 1.60cm;
+    background-color: lightseagreen;
+    border-radius: 12%;
+    border-style: solid;
+    transition:   background-color 0.50s, border-radius 1s;
+}
+.P1:hover{
+    background-color: wheat;
+    border-radius: 25%;
+    border: dashed black 10px;
+}
+
+.P2
+{
+    border: black 4px solid;
+    overflow: auto;
+    margin-bottom: 2cm;
+    height: 420px;
+    width: 1200px;
+    padding-bottom: 1cm;
+    margin-left: 1.60cm;
+    margin-right: 1.60cm;
+    background-color: grey;
+    border-radius: 12%;
+    border-style: solid;
+    transition:   background-color 0.50s, border-radius 1s;
+}
+.P2:hover{
+    background-color: wheat;
+    border-radius: 25%;
+    border: dashed black 10px;
+}
+.P3
+{
+    
+    border: black 4px solid;
+    overflow: auto;
+    margin-bottom: 2cm;
+    height: 420px;
+    width: 1200px;
+    padding-bottom: 1cm;
+    margin-left: 1.60cm;
+    margin-right: 1.60cm;
+    background-color: rgb(56, 165, 71);
+    border-radius: 12%;
+    border-style: solid;
+    transition:   background-color 0.50s, border-radius 1s;
+}
+.P3:hover{
+    background-color: wheat;
+    border-radius: 25%;
+    border: dashed black 10px;
+}
+.P4
+{
+    border: black 4px solid;
+    overflow: auto;
+    margin-bottom: 2cm;
+    height: 420px;
+    width: 1200px;
+    padding-bottom: 1cm;
+    margin-left: 1.60cm;
+    margin-right: 1.60cm;
+    background-color: rgb(137, 111, 197);
+    border-radius: 12%;
+    border-style: solid;
+    transition:   background-color 0.50s, border-radius 1s;
+}
+.P4:hover{
+    background-color: wheat;
+    border-radius: 25%;
+    border: black dashed 10px;
+}
+.people2
+{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 0.12cm;
+    margin-right: 0.12cm;
+    transition:   width 2s, background-color 2s;
+}
+.mods{
+    border: black solid 2px;
+    background-color: rgb(235, 208, 232);
+    height: 100;
+    width: 100;
+    margin-top: 2cm;
+    margin-left: 7cm;
+    font-size: 25px;
+    padding: 15px;
+    border-radius: 50%;
+    color: darkslategrey;
+    font-style: italic;
+    font-weight: bold;
+     }
+.about_me
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    
+}
+.about
+{
+    font-weight: bold;
+    font-size: 100px;
+    margin-bottom: 10mm;
+    padding: 3mm;
+
+}
+    div{
+    border: purple solid 2mm;
+    border-radius: 12%;
+    margin: 10mm;
+    margin-bottom: 15mm;
+    font-style: italic;
+    background-color: palegreen;
+
+}
+.about2{
+    font-size: 30px;
+    padding: 2%;
+    color: rgb(90, 66, 180);
+    font-family: cursive;
+}
+.myimg{
+    border: solid rgb(163, 54, 87) 2mm;
+    border-radius: 50%;
+    margin-top: 2mm;
+    float:left;
+    margin-right: 3mm;
+    margin-left: 3mm;
+    transition: border-radius 1s, border-color 0.75s, border-style 0.75s;
+}
+.myimg:hover{
+    border: black dotted 10px;
+    border-radius: 40%;
+}
+.name{
+    color: black;
+    margin-top: 0mm;
+    font-size: 50px;
+}
+.find{
+    color: white;
+}
+.mods:hover{
+    background-color: rgb(109, 218, 59);
+}
+.pic1, .pic2, .pic3, .pic5{
+    float: left;
+    margin-left: 5mm;
+}
+.pic4, .pic6, .pic7, .pic8{
+    float: right;
+}
+body{
+    background-color: wheat;
+}
+
+@media screen and (max-width: 614px){
+   .classname {
+      color: black;
+      background-color: white;
+      text-align: center;
+      font-size: 60px;
+      margin-left: 0cm;
+      text-align: center;
+      margin-right: 0cm;
+      margin-bottom: 0cm;
+}
+body{
+    background-color: rgb(143, 177, 104);
+    background-position: 0%;
+    margin: 0mm;
+    margin: 0%;
+}   
+.about{
+    font-size: 50px;
+}
+.about_me{
+    width: 365px;
+    margin-left: 0.5cm;
+    margin-right: 0cm;
+    padding: 0cm;
+}
+.name{
+    font-size: 35px;
+}
+
+.animation{
+    font-size: 110px;
+    
+}
+
+nav{
+    color: white;
+    margin-top: 0cm;
+}
+.nav{
+    overflow: hidden;
+    font-size: 20px;
+    display:flex;
+    padding: 3px;
+    margin: 0%;
+    margin-left: 103px; 
+}
+.nav:hover{
+    color: red;
+    background-color: skyblue;
+    border: 4px black solid;
+    border-radius: 25%;
+}
+div{
+  margin: 10%;
+}
+.pic1, .pic6, .pic2, .pic3, .pic4, .pic5, .pic8, .pic7{
+    height: 150px;
+    width: 100px;
+    padding: 2mm;
+}
+.P1
+{
+    border: black 4px solid;
+    overflow: auto;
+    margin-bottom: 1cm;
+    height: 500px;
+    width: 365px;
+    padding-bottom: 1cm;
+    margin-left: 0.30cm;
+    margin-right: 4cm;
+    background-color: lightseagreen;
+    border-radius: 12%;
+    border-style: solid;
+    transition:   background-color 0.50s, border-radius 1s;
+}
+.people2{
+    font-size: 25px;
+}
+.people1{
+    margin-left: 20mm;
+    font-size: 50px;
+    text-align: center;
+    padding: 0mm;
+    border: black solid 2mm;
+    color: black;
+    margin-right: 2cm;
+
+}
+.P2
+{
+    border: black 4px solid;
+    overflow: auto;
+    margin-bottom: 1cm;
+    height: 500px;
+    width: 365px;
+    padding-bottom: 1cm;
+    margin-left: 0.30cm;
+    margin-right: 4cm;
+    background-color: grey;
+    border-radius: 12%;
+    border-style: solid;
+    transition:   background-color 0.50s, border-radius 1s;
+}
+
+.P3
+{
+    border: black 4px solid;
+    overflow: auto;
+    margin-bottom: 1cm;
+    height: 500px;
+    width: 365px;
+    padding-bottom: 1cm;
+    margin-left: 0.30cm;
+    margin-right: 4cm;
+    background-color: rgb(56, 165, 71);
+    border-radius: 12%;
+    border-style: solid;
+    transition:   background-color 0.50s, border-radius 1s;
+}
+.myimg{
+    width: 180px;
+    height: 180px;
+}
+
+.P4
+{
+    border: black 4px solid;
+    overflow: auto;
+    margin-bottom: 1cm;
+    height: 410px;
+    width: 365px;
+    padding-bottom: 1cm;
+    margin-left: 0.30cm;
+    margin-right: 4cm;
+    background-color: rgb(137, 111, 197);
+    border-radius: 12%;
+    border-style: solid;
+    transition:   background-color 0.50s, border-radius 1s;
+}
+.animation{
+    font-size: 50px;
+    color: black;
+    padding: 0%;
+    border: black solid 0.2cm;
+    animation: bouncing 4s infinite;
+}
+@keyframes bouncing {
+    0%{
+        margin-left: 0px;
+       border-radius: 30%;
+       margin-top: 0%;
+       margin-right: 4cm;
+       background-color: rgb(223, 223, 68);
+       padding: 1mm;
+    }
+    25%{
+        border-radius: 0%;
+        background-color: white;
+        padding: 1mm;
+    }
+    50%{
+        margin-right: 0px;
+        border-radius: 30%;
+        margin-top: 0%;
+        margin-left: 4cm;
+        background-color: rgb(206, 126, 112);
+        padding: 1mm;
+        
+    }
+    75%{
+        border-radius: 0%;
+        background-color: white;
+        padding: 1mm;
+    }
+  
+    100%{
+        margin-left: 0%;
+        border-radius: 25%;
+        margin-right: 4cm;
+        margin-top: 0%;
+        background-color: rgb(223, 223, 67);
+        padding: 1mm;
+    }
+}
+.mods{
+    margin-left: 4cm;
+}
+.sec5{
+    width: 390cm;
+}
+}
